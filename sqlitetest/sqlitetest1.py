@@ -1,6 +1,9 @@
 import sqlite3
 
-conn = sqlite3.connect('sqliteTest/example.db')
+print(sqlite3.version)
+print(sqlite3.sqlite_version)
+
+conn = sqlite3.connect('sqlitetest/example.db')
 c = conn.cursor()
 c.execute('''
 create table if not exists stocks
