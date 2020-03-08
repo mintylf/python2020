@@ -1,6 +1,14 @@
 import sqliteDB
 
 
+제품입력
+제품목록
+제품검색
+제품수정
+제품삭제
+종료
+
+
 while True:
     print('''
     1. 테이블 생성

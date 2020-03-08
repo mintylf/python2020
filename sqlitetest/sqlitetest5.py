@@ -15,6 +15,9 @@ sql='''
     )''' #varchar 관련 공부 
 #필드이름 데이터타입, <-- 입력형식
 cur.execute(sql)
+
+
+
 sql='delete from sup'
 cur.execute(sql)
 
