@@ -8,9 +8,9 @@ conn = pymysql.connect(host='maria',
 
 
 c = conn.cursor()
-c.excut('''
+c.execute('''
 CREATE TABLE if not exists stocks
-(data text, trans text, symbol text, qty real, price, real)
+(data text, trans text, symbol text, qty real, price real)s
 ''')
 
 c.execute('''
