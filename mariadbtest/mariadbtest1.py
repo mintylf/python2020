@@ -1,10 +1,21 @@
 import pymysql 
 
-conn = pymysql.connect(host='localhost',
+conn = pymysql.connect(host='maria',
                         user='root',
-                        passwd='qwer1234'
-                        db='test'
+                        passwd='qwer1234',
+                        db='test',
                         cursorclass=pymysql.cursors.DictCursor)
 
 
-cur=conn.cursors
+c = conn.cursor()
+c.excut('''
+CREATE TABLE if not exists stocks
+(data text, trans text, symbol text, qty real, price, real)
+''')
+
+c.execute('''
+insert into stocks 
+values('2020-01-05','buy','rhat',100,35.14)
+''')
+conn.commit()
+conn.close()
