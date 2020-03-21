@@ -1,0 +1,68 @@
+kmooc 강좌 기간확인
+edwith 강좌 추가된거 확인
+생활코딩 공부하기
+
+https://parksb.github.io/article/27.html
+https://linked2ev.github.io/devlog/2018/08/01/WEB-What-is-SPA/
+https://www.fun-coding.org/index.html
+
+
+
+자바스크립트 작성방법	
+ - 인라인
+ - 내부 자바스크립트
+ - 외부 자바스크립트
+
+자바스크립트에서 처리할경우 태그를 사용하여야한다
+document.write()
+document.writeln()
+ - 소스에서는 변경되었어도 웹브라우저에서 변경되지않은 경우가 존재한다
+
+javascript 
+ - 동적인 웹페이지 작성을 위해 사용
+ - 클라이언트 프로그래밍 언어
+ - 모든 웹페이지에 자바스크립트 해석기 내장
+ - 인터프린터, 자료형이 없는 언어(가변자료형)
+
+jQuery
+ - 자바스크립트 기반의 라이브러리
+
+JSON
+ - javascript의 객체표기법
+ - 서로 다른 기종간의 데이터 전송용
+ - xml의 대체제
+
+
+화면에 변경사항이 적용되지 않을경우
+웹 브라우저는 성능때문에 이전에 받은	것을 일정시간 유지한다(캐시해서)
+계속 변화시키기위해서 network에서 disable cache를 체크하여 반영시킨다
+
+https://sites.google.com/view/itbank
+자료 사이트
+
+
+
+
+https://github.com/shimseonjo?tab=repositories&q=&type=&language=
+강사분 github 주소
+https://github.com/J-Yunii/kgitbankPython
+같이수업듣는분 - 앞
+https://github.com/yjh8806/python2020
+같이수업듣는분 - 옆
+https://github.com/rkd1003/python202003
+
+https://github.com/dldbsk2306/python2020
+
+
+
+
+
+docker run --rm -d --name maria -e MARIADB_DATABASE=test -e MARIADB_ROOT_PASSWORD=qwer1234 shimseonjo/maria:v1(도커 초기설정, 마리아DB 확인 후 없을경우 설치)
+
+docker run --rm --name anaconda3 -itd -u vscode -p 8888-8890:8888-8890 -p 6006-6015:6006-6015 -e JUPYTER_RUN=yes --link maria:maria mrsono0/base_project:anaconda3
+(위의 명령어와 동일, 아나콘다3 확인 후 없을경우 설치)
+
+
+
+
+html, 정적인 문서, 동적인 	
