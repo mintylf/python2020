@@ -1,0 +1,33 @@
+db에 userid필드가 존재
+select해서 가져오면 가져와짐
+데이터를 불러와서 수정한 데이터를 포스트한다
+그러면 updateform에서 다음으로 key(id)값이 안넘어간다
+데이터를 구분하는 key값이 존재
+userid를 id로 변경하여 key값을로 사용하여 분류
+삭제할때 기존의 부분은 id를 사용하여 삭제한다
+
+
+
+
+https://coding-factory.tistory.com/143
+
+https://kr.mathworks.com/campaigns/offers/deep-learning-vs-machine-learning-algorithm.html
+
+http://tcpschool.com/java/java_operator_arithmetic
+
+https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html
+
+http://blog.naver.com/PostView.nhn?blogId=jingjingyo&logNo=221294788059&parentCategoryNo=&categoryNo=8&viewDate=&isShowPopularPosts=true&from=search
+
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/config/#connection-uri-format
+
+https://www.opentutorials.org/module/3669/22070
+
+https://dev-momo.tistory.com/entry/%EC%95%8C%EB%A7%88%EB%91%90%EB%A9%B4-%EC%93%B8%EB%A7%8C%ED%95%9C-Chrome-Console-%EA%B8%B0%EB%8A%A5
+
+https://www.codingfactory.net/10765
+
+https://opentutorials.org/course/53/59
+
+https://www.slideshare.net/TaeYoungLee1/1-115587182
+
